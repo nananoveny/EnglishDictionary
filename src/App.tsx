@@ -54,8 +54,8 @@ const App = () => {
             <textarea
               name=""
               id=""
-              cols="30"
-              rows="4"
+              cols={30}
+              rows={4}
               placeholder="Enter text"
               className="border-2 rounded outline-none p-2"
               value={text}
